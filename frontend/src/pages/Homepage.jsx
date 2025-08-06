@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
-import RatelimitUI from '../components/RatelimitUI.JSX'
+
 import axios from 'axios'
 import toast from 'react-hot-toast'
 import Notecard from '../components/Notecard'
 import api from '../lib/axios'
 import Notesnotfound from '../components/Notesnotfound'
+import RatelimitUI from '../components/RatelimitUI.jsx'
+
 
 
 const Homepage = () => {

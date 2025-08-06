@@ -13,11 +13,11 @@ const Createpage = () => {
     e.preventDefault();
     if(!title||!content){
       toast.error("ALL FIELDS NOT FILLED");
-
+      return;
     }
     setloading(true)
     try {
-      await axios.post("http://localhost:5001/api/notes",{
+      await api.post("/notes",{
         title,
         content,
       })

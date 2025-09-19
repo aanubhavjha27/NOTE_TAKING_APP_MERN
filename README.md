@@ -18,10 +18,10 @@ Includes authentication and rate limiting with Redis.
 ![Home](./ss/homescreen.png)
 
 ### Create Page
-![Login](./ss/create page.png)
+![Login](./ss/createpage.png)
 
 ### Delete page
-![Dashboard](./ss/delete page.png)
+![Dashboard](./ss/deletepage.png)
 
 ## ⚙️ How to Run Locally
 ```bash
